@@ -42,5 +42,5 @@
 # Local History for Visual Studio Code
 .history/
 
-#Preventing uploads of build folder
-build/*
+# CMake
+cmake-build-*/

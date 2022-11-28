@@ -8,7 +8,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/OpenGLTemplate.exe",
+      "program": "${workspaceFolder}/build/OpenGLTemplate.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",

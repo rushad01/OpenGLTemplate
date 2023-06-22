@@ -44,3 +44,4 @@
 
 # CMake build folder
 **/build
+.cache/

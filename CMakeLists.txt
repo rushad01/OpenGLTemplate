@@ -12,7 +12,7 @@ set(SOURCES ${SRC_DIR}/main.cpp)
 # Executable definition and properties
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${SRC_DIR})
-set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 17)
 #This will enable gcc compiler to disable console
 if(MINGW)
     target_link_options(${PROJECT_NAME} PRIVATE -mwindows)

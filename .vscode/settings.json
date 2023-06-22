@@ -1,8 +1,8 @@
 {
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "cmake.configureOnOpen": true,
-  "C_Cpp.intelliSenseEngine": "Disabled",
-  "clangd.path": "C:Program Files//LLVM//bin//clangd.exe",
+  //"C_Cpp.intelliSenseEngine": "Disabled",
+  //"clangd.path": "C:Program Files//LLVM//bin//clangd.exe",
   "clangd.arguments": [
     "-log=verbose",
     "-pretty",
